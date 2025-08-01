@@ -1,0 +1,1034 @@
+{
+    "cardTypes": {
+        "ไพ่ป๊อก": {
+            "displayTemplate": "playingCard",
+            "displayName": "ไพ่ป๊อก",
+            "icon": "🂡",
+            "iconColor": "#e53e3e",
+            "bgColor": "#fff",
+            "textColor": "#e53e3e",
+            "startText": "กดปุ่มเพื่อเริ่มสุ่มไพ่!",
+            "endText": "สุ่มไพ่ครบแล้ว!",
+            "categories": {
+                "โพแดง": [
+                    {
+                        "id": "h1",
+                        "value": "A",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เอซ โพแดง",
+                        "englishText": "Ace of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h2",
+                        "value": "2",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สอง โพแดง",
+                        "englishText": "Two of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h3",
+                        "value": "3",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สาม โพแดง",
+                        "englishText": "Three of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h4",
+                        "value": "4",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สี่ โพแดง",
+                        "englishText": "Four of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h5",
+                        "value": "5",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "ห้า โพแดง",
+                        "englishText": "Five of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h6",
+                        "value": "6",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "หก โพแดง",
+                        "englishText": "Six of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h7",
+                        "value": "7",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เจ็ด โพแดง",
+                        "englishText": "Seven of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h8",
+                        "value": "8",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แปด โพแดง",
+                        "englishText": "Eight of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h9",
+                        "value": "9",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เก้า โพแดง",
+                        "englishText": "Nine of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "h10",
+                        "value": "10",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สิบ โพแดง",
+                        "englishText": "Ten of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "hj",
+                        "value": "J",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แจ็ค โพแดง",
+                        "englishText": "Jack of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "hq",
+                        "value": "Q",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แหม่ม โพแดง",
+                        "englishText": "Queen of Hearts",
+                        "count": 1
+                    },
+                    {
+                        "id": "hk",
+                        "value": "K",
+                        "icon": "♥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "คิง โพแดง",
+                        "englishText": "King of Hearts",
+                        "count": 1
+                    }
+                ],
+                "โพดำ": [
+                    {
+                        "id": "s1",
+                        "value": "A",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "เอซ โพดำ",
+                        "englishText": "Ace of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s2",
+                        "value": "2",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "สอง โพดำ",
+                        "englishText": "Two of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s3",
+                        "value": "3",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "สาม โพดำ",
+                        "englishText": "Three of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s4",
+                        "value": "4",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "สี่ โพดำ",
+                        "englishText": "Four of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s5",
+                        "value": "5",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "ห้า โพดำ",
+                        "englishText": "Five of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s6",
+                        "value": "6",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "หก โพดำ",
+                        "englishText": "Six of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s7",
+                        "value": "7",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "เจ็ด โพดำ",
+                        "englishText": "Seven of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s8",
+                        "value": "8",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "แปด โพดำ",
+                        "englishText": "Eight of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s9",
+                        "value": "9",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "เก้า โพดำ",
+                        "englishText": "Nine of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "s10",
+                        "value": "10",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "สิบ โพดำ",
+                        "englishText": "Ten of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "sj",
+                        "value": "J",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "แจ็ค โพดำ",
+                        "englishText": "Jack of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "sq",
+                        "value": "Q",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "แหม่ม โพดำ",
+                        "englishText": "Queen of Spades",
+                        "count": 1
+                    },
+                    {
+                        "id": "sk",
+                        "value": "K",
+                        "icon": "♠",
+                        "iconColor": "#222",
+                        "thaiText": "คิง โพดำ",
+                        "englishText": "King of Spades",
+                        "count": 1
+                    }
+                ],
+                "ข้าวหลามตัด": [
+                    {
+                        "id": "d1",
+                        "value": "A",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เอซ ข้าวหลามตัด",
+                        "englishText": "Ace of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d2",
+                        "value": "2",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สอง ข้าวหลามตัด",
+                        "englishText": "Two of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d3",
+                        "value": "3",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สาม ข้าวหลามตัด",
+                        "englishText": "Three of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d4",
+                        "value": "4",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สี่ ข้าวหลามตัด",
+                        "englishText": "Four of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d5",
+                        "value": "5",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "ห้า ข้าวหลามตัด",
+                        "englishText": "Five of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d6",
+                        "value": "6",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "หก ข้าวหลามตัด",
+                        "englishText": "Six of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d7",
+                        "value": "7",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เจ็ด ข้าวหลามตัด",
+                        "englishText": "Seven of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d8",
+                        "value": "8",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แปด ข้าวหลามตัด",
+                        "englishText": "Eight of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d9",
+                        "value": "9",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เก้า ข้าวหลามตัด",
+                        "englishText": "Nine of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "d10",
+                        "value": "10",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สิบ ข้าวหลามตัด",
+                        "englishText": "Ten of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "dj",
+                        "value": "J",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แจ็ค ข้าวหลามตัด",
+                        "englishText": "Jack of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "dq",
+                        "value": "Q",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แหม่ม ข้าวหลามตัด",
+                        "englishText": "Queen of Diamonds",
+                        "count": 1
+                    },
+                    {
+                        "id": "dk",
+                        "value": "K",
+                        "icon": "♦",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "คิง ข้าวหลามตัด",
+                        "englishText": "King of Diamonds",
+                        "count": 1
+                    }
+                ],
+                "ดอกจิก": [
+                    {
+                        "id": "c1",
+                        "value": "A",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "เอซ ดอกจิก",
+                        "englishText": "Ace of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c2",
+                        "value": "2",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "สอง ดอกจิก",
+                        "englishText": "Two of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c3",
+                        "value": "3",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "สาม ดอกจิก",
+                        "englishText": "Three of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c4",
+                        "value": "4",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "สี่ ดอกจิก",
+                        "englishText": "Four of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c5",
+                        "value": "5",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "ห้า ดอกจิก",
+                        "englishText": "Five of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c6",
+                        "value": "6",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "หก ดอกจิก",
+                        "englishText": "Six of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c7",
+                        "value": "7",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "เจ็ด ดอกจิก",
+                        "englishText": "Seven of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c8",
+                        "value": "8",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "แปด ดอกจิก",
+                        "englishText": "Eight of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c9",
+                        "value": "9",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "เก้า ดอกจิก",
+                        "englishText": "Nine of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "c10",
+                        "value": "10",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "สิบ ดอกจิก",
+                        "englishText": "Ten of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "cj",
+                        "value": "J",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "แจ็ค ดอกจิก",
+                        "englishText": "Jack of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "cq",
+                        "value": "Q",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "แหม่ม ดอกจิก",
+                        "englishText": "Queen of Clubs",
+                        "count": 1
+                    },
+                    {
+                        "id": "ck",
+                        "value": "K",
+                        "icon": "♣",
+                        "iconColor": "#222",
+                        "thaiText": "คิง ดอกจิก",
+                        "englishText": "King of Clubs",
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "UNO": {
+            "displayTemplate": "playingCard",
+            "displayName": "UNO",
+            "icon": "🃏",
+            "iconColor": "#fff200",
+            "bgColor": "#222",
+            "textColor": "#fff200",
+            "startText": "กดปุ่มเพื่อเริ่มสุ่มไพ่ UNO!",
+            "endText": "สุ่มไพ่ครบแล้ว!",
+            "categories": {
+                "แดง": [
+                    {
+                        "id": "r0",
+                        "value": "0",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "ศูนย์ แดง",
+                        "englishText": "Red 0",
+                        "count": 1
+                    },
+                    {
+                        "id": "r1",
+                        "value": "1",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "หนึ่ง แดง",
+                        "englishText": "Red 1",
+                        "count": 2
+                    },
+                    {
+                        "id": "r2",
+                        "value": "2",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สอง แดง",
+                        "englishText": "Red 2",
+                        "count": 2
+                    },
+                    {
+                        "id": "r3",
+                        "value": "3",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สาม แดง",
+                        "englishText": "Red 3",
+                        "count": 2
+                    },
+                    {
+                        "id": "r4",
+                        "value": "4",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "สี่ แดง",
+                        "englishText": "Red 4",
+                        "count": 2
+                    },
+                    {
+                        "id": "r5",
+                        "value": "5",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "ห้า แดง",
+                        "englishText": "Red 5",
+                        "count": 2
+                    },
+                    {
+                        "id": "r6",
+                        "value": "6",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "หก แดง",
+                        "englishText": "Red 6",
+                        "count": 2
+                    },
+                    {
+                        "id": "r7",
+                        "value": "7",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เจ็ด แดง",
+                        "englishText": "Red 7",
+                        "count": 2
+                    },
+                    {
+                        "id": "r8",
+                        "value": "8",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "แปด แดง",
+                        "englishText": "Red 8",
+                        "count": 2
+                    },
+                    {
+                        "id": "r9",
+                        "value": "9",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "เก้า แดง",
+                        "englishText": "Red 9",
+                        "count": 2
+                    },
+                    {
+                        "id": "rSkip",
+                        "value": "⏭",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "ข้าม แดง",
+                        "englishText": "Red Skip",
+                        "count": 2
+                    },
+                    {
+                        "id": "rReverse",
+                        "value": "🔄",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "ย้อนกลับ แดง",
+                        "englishText": "Red Reverse",
+                        "count": 2
+                    },
+                    {
+                        "id": "rDraw2",
+                        "value": "+2",
+                        "icon": "🟥",
+                        "iconColor": "#e53e3e",
+                        "thaiText": "จั่วสองใบ แดง",
+                        "englishText": "Red Draw Two",
+                        "count": 2
+                    }
+                ],
+                "เหลือง": [
+                    {
+                        "id": "y0",
+                        "value": "0",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "ศูนย์ เหลือง",
+                        "englishText": "Yellow 0",
+                        "count": 1
+                    },
+                    {
+                        "id": "y1",
+                        "value": "1",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "หนึ่ง เหลือง",
+                        "englishText": "Yellow 1",
+                        "count": 2
+                    },
+                    {
+                        "id": "y2",
+                        "value": "2",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "สอง เหลือง",
+                        "englishText": "Yellow 2",
+                        "count": 2
+                    },
+                    {
+                        "id": "y3",
+                        "value": "3",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "สาม เหลือง",
+                        "englishText": "Yellow 3",
+                        "count": 2
+                    },
+                    {
+                        "id": "y4",
+                        "value": "4",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "สี่ เหลือง",
+                        "englishText": "Yellow 4",
+                        "count": 2
+                    },
+                    {
+                        "id": "y5",
+                        "value": "5",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "ห้า เหลือง",
+                        "englishText": "Yellow 5",
+                        "count": 2
+                    },
+                    {
+                        "id": "y6",
+                        "value": "6",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "หก เหลือง",
+                        "englishText": "Yellow 6",
+                        "count": 2
+                    },
+                    {
+                        "id": "y7",
+                        "value": "7",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "เจ็ด เหลือง",
+                        "englishText": "Yellow 7",
+                        "count": 2
+                    },
+                    {
+                        "id": "y8",
+                        "value": "8",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "แปด เหลือง",
+                        "englishText": "Yellow 8",
+                        "count": 2
+                    },
+                    {
+                        "id": "y9",
+                        "value": "9",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "เก้า เหลือง",
+                        "englishText": "Yellow 9",
+                        "count": 2
+                    },
+                    {
+                        "id": "ySkip",
+                        "value": "⏭",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "ข้าม เหลือง",
+                        "englishText": "Yellow Skip",
+                        "count": 2
+                    },
+                    {
+                        "id": "yReverse",
+                        "value": "🔄",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "ย้อนกลับ เหลือง",
+                        "englishText": "Yellow Reverse",
+                        "count": 2
+                    },
+                    {
+                        "id": "yDraw2",
+                        "value": "+2",
+                        "icon": "🟨",
+                        "iconColor": "#facc15",
+                        "thaiText": "จั่วสองใบ เหลือง",
+                        "englishText": "Yellow Draw Two",
+                        "count": 2
+                    }
+                ],
+                "เขียว": [
+                    {
+                        "id": "g0",
+                        "value": "0",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "ศูนย์ เขียว",
+                        "englishText": "Green 0",
+                        "count": 1
+                    },
+                    {
+                        "id": "g1",
+                        "value": "1",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "หนึ่ง เขียว",
+                        "englishText": "Green 1",
+                        "count": 2
+                    },
+                    {
+                        "id": "g2",
+                        "value": "2",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "สอง เขียว",
+                        "englishText": "Green 2",
+                        "count": 2
+                    },
+                    {
+                        "id": "g3",
+                        "value": "3",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "สาม เขียว",
+                        "englishText": "Green 3",
+                        "count": 2
+                    },
+                    {
+                        "id": "g4",
+                        "value": "4",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "สี่ เขียว",
+                        "englishText": "Green 4",
+                        "count": 2
+                    },
+                    {
+                        "id": "g5",
+                        "value": "5",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "ห้า เขียว",
+                        "englishText": "Green 5",
+                        "count": 2
+                    },
+                    {
+                        "id": "g6",
+                        "value": "6",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "หก เขียว",
+                        "englishText": "Green 6",
+                        "count": 2
+                    },
+                    {
+                        "id": "g7",
+                        "value": "7",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "เจ็ด เขียว",
+                        "englishText": "Green 7",
+                        "count": 2
+                    },
+                    {
+                        "id": "g8",
+                        "value": "8",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "แปด เขียว",
+                        "englishText": "Green 8",
+                        "count": 2
+                    },
+                    {
+                        "id": "g9",
+                        "value": "9",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "เก้า เขียว",
+                        "englishText": "Green 9",
+                        "count": 2
+                    },
+                    {
+                        "id": "gSkip",
+                        "value": "⏭",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "ข้าม เขียว",
+                        "englishText": "Green Skip",
+                        "count": 2
+                    },
+                    {
+                        "id": "gReverse",
+                        "value": "🔄",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "ย้อนกลับ เขียว",
+                        "englishText": "Green Reverse",
+                        "count": 2
+                    },
+                    {
+                        "id": "gDraw2",
+                        "value": "+2",
+                        "icon": "🟩",
+                        "iconColor": "#22c55e",
+                        "thaiText": "จั่วสองใบ เขียว",
+                        "englishText": "Green Draw Two",
+                        "count": 2
+                    }
+                ],
+                "น้ำเงิน": [
+                    {
+                        "id": "b0",
+                        "value": "0",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "ศูนย์ น้ำเงิน",
+                        "englishText": "Blue 0",
+                        "count": 1
+                    },
+                    {
+                        "id": "b1",
+                        "value": "1",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "หนึ่ง น้ำเงิน",
+                        "englishText": "Blue 1",
+                        "count": 2
+                    },
+                    {
+                        "id": "b2",
+                        "value": "2",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "สอง น้ำเงิน",
+                        "englishText": "Blue 2",
+                        "count": 2
+                    },
+                    {
+                        "id": "b3",
+                        "value": "3",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "สาม น้ำเงิน",
+                        "englishText": "Blue 3",
+                        "count": 2
+                    },
+                    {
+                        "id": "b4",
+                        "value": "4",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "สี่ น้ำเงิน",
+                        "englishText": "Blue 4",
+                        "count": 2
+                    },
+                    {
+                        "id": "b5",
+                        "value": "5",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "ห้า น้ำเงิน",
+                        "englishText": "Blue 5",
+                        "count": 2
+                    },
+                    {
+                        "id": "b6",
+                        "value": "6",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "หก น้ำเงิน",
+                        "englishText": "Blue 6",
+                        "count": 2
+                    },
+                    {
+                        "id": "b7",
+                        "value": "7",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "เจ็ด น้ำเงิน",
+                        "englishText": "Blue 7",
+                        "count": 2
+                    },
+                    {
+                        "id": "b8",
+                        "value": "8",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "แปด น้ำเงิน",
+                        "englishText": "Blue 8",
+                        "count": 2
+                    },
+                    {
+                        "id": "b9",
+                        "value": "9",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "เก้า น้ำเงิน",
+                        "englishText": "Blue 9",
+                        "count": 2
+                    },
+                    {
+                        "id": "bSkip",
+                        "value": "⏭",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "ข้าม น้ำเงิน",
+                        "englishText": "Blue Skip",
+                        "count": 2
+                    },
+                    {
+                        "id": "bReverse",
+                        "value": "🔄",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "ย้อนกลับ น้ำเงิน",
+                        "englishText": "Blue Reverse",
+                        "count": 2
+                    },
+                    {
+                        "id": "bDraw2",
+                        "value": "+2",
+                        "icon": "🟦",
+                        "iconColor": "#2563eb",
+                        "thaiText": "จั่วสองใบ น้ำเงิน",
+                        "englishText": "Blue Draw Two",
+                        "count": 2
+                    }
+                ],
+                "พิเศษ": [
+                    {
+                        "id": "wild",
+                        "value": "Wild",
+                        "icon": "🌈",
+                        "iconColor": "#111",
+                        "thaiText": "เปลี่ยนสี",
+                        "englishText": "Wild",
+                        "count": 4
+                    },
+                    {
+                        "id": "wildDraw4",
+                        "value": "+4",
+                        "icon": "🌈",
+                        "iconColor": "#111",
+                        "thaiText": "เปลี่ยนสี+จั่วสี่ใบ",
+                        "englishText": "Wild Draw Four",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "Deep Talk": {
+            "displayTemplate": "textCard",
+            "displayName": "Deep Talk",
+            "icon": "💬",
+            "iconColor": "#2563eb",
+            "bgColor": "#e0e7ff",
+            "textColor": "#1e293b",
+            "startText": "พร้อมพูดคุยแล้ว กดสุ่มคำถาม!",
+            "endText": "หมดคำถามแล้ว!",
+            "categories": {
+                "ความสัมพันธ์": [
+                    {
+                        "id": "d1",
+                        "thaiText": "คุณให้ความสำคัญกับอะไรในความสัมพันธ์?",
+                        "englishText": "What matters most in relationships?",
+                        "count": 1
+                    },
+                    {
+                        "id": "d2",
+                        "thaiText": "สิ่งใดที่ทำให้คุณรู้สึกผูกพัน?",
+                        "englishText": "What makes you feel connected?",
+                        "count": 1
+                    }
+                ],
+                "ชีวิตประจำวัน": [
+                    {
+                        "id": "d3",
+                        "thaiText": "อะไรทำให้คุณยิ้มได้ในวันนี้?",
+                        "englishText": "What made you smile today?",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}
